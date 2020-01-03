@@ -33,3 +33,11 @@ my $string =
 ## Do this instead:
 my $string = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor aliqua.";
 ```
+
+### Contribution
+
+- Your contributions and suggestions are heartily ♥ welcome. [**See here the contribution guidelines.**](/.github/CONTRIBUTING.md) Please, report bugs via [**issues page.**](https://github.com/GouveaHeitor/perl-style-guide/issues) See here the [**security policy.**](./github/SECURITY.md) (✿ ◕‿◕) 
+
+### License
+
+- This work is licensed under [**MIT License.**](https://github.com/GouveaHeitor/perl-style-guide/blob/master/LICENSE.md)
