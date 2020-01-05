@@ -32,6 +32,9 @@ my $string =
 
 ## Do this instead:
 my $string = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor aliqua.";
+
+my $fn = sub {$_[0] + 1};              # Bad.
+my $fn = sub { $_[0] + 1 };            # Good.
 ```
 
 #### Contribution
@@ -41,4 +44,3 @@ my $string = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do e
 #### License
 
 - This work is licensed under [**MIT License.**](https://github.com/GouveaHeitor/perl-style-guide/blob/master/LICENSE.md)
-
