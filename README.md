@@ -23,6 +23,13 @@ This project is just one of several other coding style guides, there is no inten
 #### Code layout
 
 - Avoid using comments: your code must be self explanatory, using comments proves that it is a confusing code.
+
+- Make use of the "strict" and "warnings" modules in all your codes, they provided you:
+    1. strict: It forces you to code properly to make your program less error-prone. For example: It forces you to declare variables before you use them. You can declare variable using “my” keyword. “my” keyword restricts the scope of the variable to local. It makes the code more readable and less error prone. If you don’t declare variable using my keyword then the created variable would be global, which you should avoid, reducing the scope of the variable to the place where it is needed is a good programming practice.
+
+    2. warnings: It helps you find typing mistakes, it warns you whenever it sees something wrong with your program. It would help you find mistakes in your program faster.
+
+
 - Try to limit your code to 72-78 column lines...
   - But don't stress over it. Real world code often has very long sentences, and trying to force them to be below 78 columns leads to tight, but ugly code. In a nutshell: <= 72 is perfect, <= 78 is great, > 78 is not as bad as some folks might try to make you believe.
 
