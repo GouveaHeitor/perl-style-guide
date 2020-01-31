@@ -22,6 +22,7 @@ This project is just one of several other coding style guides, there is no inten
 
 #### Code layout
 
+- Avoid using comments: your code must be self explanatory, using comments proves that it is a confusing code.
 - Try to limit your code to 72-78 column lines...
   - But don't stress over it. Real world code often has very long sentences, and trying to force them to be below 78 columns leads to tight, but ugly code. In a nutshell: <= 72 is perfect, <= 78 is great, > 78 is not as bad as some folks might try to make you believe.
 
