@@ -36,26 +36,26 @@ This project is just one of several other coding style guides, there is no inten
 #### Good practices  
 
 ```perl
-## Don't do this:
+# Don't do this:
 my $string =
   "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor aliqua.";
 
-## Do this instead:
+# Do this instead:
 my $string = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor aliqua."
 
-my $fn = sub {$_[0] + 1};              # Bad.
-my $fn = sub { $_[0] + 1 };            # Good.
+my $fn = sub {$_[0] + 1};              # Bad
+my $fn = sub { $_[0] + 1 };            # Good
 ```
 
 ```perl
-## Bad
+# Bad
 sub my_method {
   my $self = shift;
   my %params = @_;
   ...
 }
 
-## Good
+# Good
 sub my_method {
   my ($self, %params) = @_;
   ...
