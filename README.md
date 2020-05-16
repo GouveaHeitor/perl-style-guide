@@ -6,7 +6,7 @@
       <img src="https://img.shields.io/badge/license-MIT-blue.svg">
     </a>
     <a href="https://github.com/GouveaHeitor/perl-style-guide/releases">
-      <img src="https://img.shields.io/badge/version-0.1.1-blue.svg">
+      <img src="https://img.shields.io/badge/version-0.1.2-blue.svg">
     </a>
   </p>
 </p>
@@ -32,6 +32,9 @@ This project is just one of several other coding style guides, there is no inten
 
 - Try to limit your code to 72-78 column lines...
   - But don't stress over it. Real world code often has very long sentences, and trying to force them to be below 78 columns leads to tight, but ugly code. In a nutshell: <= 72 is perfect, <= 78 is great, > 78 is not as bad as some folks might try to make you believe.
+  
+- Use two spaces per indentation level. The main advantage being that it makes it a bit more difficult for undisciplined coders to insert tabs all over the place. Decreasing the level of indentation also helps in keeping a maximum of 78 column lines.
+
   
 #### Good practices  
 
