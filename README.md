@@ -6,7 +6,7 @@
       <img src="https://img.shields.io/badge/license-MIT-blue.svg">
     </a>
     <a href="https://github.com/GouveaHeitor/perl-style-guide/releases">
-      <img src="https://img.shields.io/badge/version-0.1.2-blue.svg">
+      <img src="https://img.shields.io/badge/version-0.1.3-blue.svg">
     </a>
   </p>
 </p>
@@ -53,6 +53,26 @@ my $string = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do e
 my $fn = sub {$_[0] + 1};              # Bad
 my $fn = sub { $_[0] + 1 };            # Good
 ```
+
+* Don't cuddle an else.
+
+```perl
+## Good
+if (condition) {
+  ...
+}
+else {
+  ...
+}
+
+## Bad.
+if (condition) {
+  ...
+} else {
+  ...
+}
+```
+
 
 ```perl
 # Bad
