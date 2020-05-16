@@ -13,12 +13,13 @@
 
 ---
 
-
 #### Disclaimer
 
 This paper is summarized in some good practice guidelines for Perl coding using "post-modern" practices. This work is in progress and any suggestions/contributions are welcome.
 
 This project is just one of several other coding style guides, there is no intention of setting a pattern from it. Please do not take this as absolute truth. The most important thing here is that you and your team feel comfortable with a certain guideline and make use of it.
+
+---
 
 #### Code layout
 
@@ -35,6 +36,9 @@ This project is just one of several other coding style guides, there is no inten
   
 - Use two spaces per indentation level. The main advantage being that it makes it a bit more difficult for undisciplined coders to insert tabs all over the place. Decreasing the level of indentation also helps in keeping a maximum of 78 column lines.
 
+- Do not use tabs. It makes code difficult to browse in some hosts (where 8 spaces per tab is the standard) and only works when indenting by blocks.
+
+---
   
 #### Good practices  
 
@@ -65,10 +69,13 @@ sub my_method {
 }
 ```
 
+---
 
 #### Contribution
 
 - Your contributions and suggestions are heartily ♥ welcome. [See here the contribution guidelines.](/.github/CONTRIBUTING.md) Please, report bugs via [issues page.](https://github.com/GouveaHeitor/perl-style-guide/issues) See here the [security policy.](/SECURITY.md) (✿ ◕‿◕) 
+
+---
 
 #### License
 
