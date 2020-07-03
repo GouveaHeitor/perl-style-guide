@@ -1,6 +1,6 @@
 <p align="center">
   <h3 align="center">Perl Style Guide</h3>
-  <p align="center">A starting point for Perl development teams to provide consistency through good practices </p>
+  <p align="center">A starting point for Perl development teams to provide consistency through good practices</p>
   <p align="center">
     <a href="/LICENSE.md">
       <img src="https://img.shields.io/badge/license-MIT-blue.svg">
@@ -13,7 +13,7 @@
 
 ---
 
-#### Disclaimer
+#### Summary
 
 This paper is summarized in some good practice guidelines for Perl coding using "post-modern" practices. This work is in progress and any suggestions/contributions are welcome.
 
@@ -93,7 +93,7 @@ sub my_method {
 
 #### Contribution
 
-- Your contributions and suggestions are heartily ♥ welcome. [See here the contribution guidelines.](/.github/CONTRIBUTING.md) Please, report bugs via [issues page.](https://github.com/GouveaHeitor/perl-style-guide/issues) See here the [security policy.](/SECURITY.md) (✿ ◕‿◕) 
+- Your contributions and suggestions are heartily ♥ welcome. [See here the contribution guidelines.](/.github/CONTRIBUTING.md) Please, report bugs via [issues page](https://github.com/GouveaHeitor/perl-style-guide/issues) and for security issues, see here the [security policy.](/SECURITY.md) (✿ ◕‿◕) 
 
 ---
 
