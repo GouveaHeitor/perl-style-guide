@@ -54,6 +54,8 @@ my $fn = sub {$_[0] + 1};              # Bad
 my $fn = sub { $_[0] + 1 };            # Good
 ```
 
+---
+
 * Don't cuddle an else.
 
 ```perl
@@ -73,6 +75,10 @@ if (condition) {
 }
 ```
 
+---
+
+- Always unpack the stack first.
+- Do not, ever, modify the stack. Unless necessary.
 
 ```perl
 # Bad
