@@ -19,6 +19,8 @@ This paper is summarized in some good practice guidelines for Perl coding using 
 
 This project is just one of several other coding style guides, there is no intention of setting a pattern from it. Please do not take this as absolute truth. The most important thing here is that you and your team feel comfortable with a certain guideline and make use of it.
 
+This paper is a fork of the paper written by [Eric Lorenzana](https://github.com/chusqui/perl-style-guide), with only a few changes in the sense of organization of the material and some adjustments to current market practices. 
+
 ---
 
 #### Code layout
