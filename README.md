@@ -6,7 +6,7 @@
       <img src="https://img.shields.io/badge/license-MIT-blue.svg">
     </a>
     <a href="https://github.com/GouveaHeitor/perl-style-guide/releases">
-      <img src="https://img.shields.io/badge/version-0.1.6-blue.svg">
+      <img src="https://img.shields.io/badge/version-0.1.7-blue.svg">
     </a>
   </p>
 </p>
@@ -56,8 +56,6 @@ my $fn = sub {$_[0] + 1};              # Bad
 my $fn = sub { $_[0] + 1 };            # Good
 ```
 
----
-
 * Don't cuddle an else.
 
 ```perl
@@ -78,8 +76,6 @@ if (condition) {
 }
 ```
 
----
-
 ```perl
 # Good
 sub function {
@@ -98,8 +94,6 @@ sub function
 }
 ```
 
----
-
 - Always unpack the stack first.
 - Do not, ever, modify the stack. Unless necessary.
 
@@ -117,8 +111,6 @@ sub my_method {
   ...
 }
 ```
-
----
 
 - Do not put spaces between spaces, braces and brackets. That is, arrays, hashes, array and hash references, string and command line delimiters.
 
@@ -152,8 +144,6 @@ my $area = $pi * ($radius ^ 2);
 # Bad
 my $area = $pi*($radius^2);
 ```
-
----
 
 - Associate hash key and values by using fat comma.
 
