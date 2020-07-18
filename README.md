@@ -6,7 +6,7 @@
       <img src="https://img.shields.io/badge/license-MIT-blue.svg">
     </a>
     <a href="https://github.com/GouveaHeitor/perl-style-guide/releases">
-      <img src="https://img.shields.io/badge/version-0.1.5-blue.svg">
+      <img src="https://img.shields.io/badge/version-0.1.6-blue.svg">
     </a>
   </p>
 </p>
@@ -143,7 +143,7 @@ my @items = map {do_something_to $_} @_;    # Bad
 my @items = map { do_something_to $_ } @_;  # Good
 ```
 
-- Use whitespace between operators
+- Use whitespace between operators.
 
 ```perl
 # Good
@@ -151,6 +151,25 @@ my $area = $pi * ($radius ^ 2);
 
 # Bad
 my $area = $pi*($radius^2);
+```
+
+---
+
+- Associate hash key and values by using fat comma.
+
+```perl
+
+# Correct, but bad style
+my %hash = (key1, 'val1',
+            key2, 'val2',
+            key3, 'val3');
+
+# Good
+my %hash = (
+              key1 => 'val1',
+              key2 => 'val2',
+              key3 => 'val3'
+           );
 ```
 
 ---
