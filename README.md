@@ -120,6 +120,41 @@ sub my_method {
 
 ---
 
+- Do not put spaces between spaces, braces and brackets. That is, arrays, hashes, array and hash references, string and command line delimiters.
+
+```perl
+my ( $self, $who, @params ) = @_;      # Bad
+my ($self, $who, @params) = @_;        # Good
+
+my $self = { name => "Eric", age => 26 };  # Bad
+my $self = {name => "Eric", age => 26};    # Good
+
+my @files = qx| ls $str |;             # Bad
+my @files = qx|ls $str|;               # Good
+```
+
+- Please keep in mind that this does not apply to operators.
+
+```perl
+my $fn = sub {$_[0] + 1};              # Bad
+my $fn = sub { $_[0] + 1 };            # Good
+
+my @items = map {do_something_to $_} @_;    # Bad
+my @items = map { do_something_to $_ } @_;  # Good
+```
+
+- Use whitespace between operators
+
+```perl
+# Good
+my $area = $pi * ($radius ^ 2);
+
+# Bad
+my $area = $pi*($radius^2);
+```
+
+---
+
 #### Contribution
 
 - Your contributions and suggestions are heartily ♥ welcome. [See here the contribution guidelines.](/.github/CONTRIBUTING.md) Please, report bugs via [issues page](https://github.com/GouveaHeitor/perl-style-guide/issues) and for security issues, see here the [security policy.](/SECURITY.md) (✿ ◕‿◕) 
