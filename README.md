@@ -6,7 +6,7 @@
       <img src="https://img.shields.io/badge/license-MIT-blue.svg">
     </a>
     <a href="https://github.com/GouveaHeitor/perl-style-guide/releases">
-      <img src="https://img.shields.io/badge/version-0.1.3-blue.svg">
+      <img src="https://img.shields.io/badge/version-0.1.4-blue.svg">
     </a>
   </p>
 </p>
@@ -74,6 +74,26 @@ if (condition) {
   ...
 } else {
   ...
+}
+```
+
+---
+
+```perl
+## Good.
+sub function {
+  if (test) {
+    ...
+  }
+}
+
+## Bad.
+sub function
+{
+  if (test)
+  {
+    ...
+  }
 }
 ```
 
